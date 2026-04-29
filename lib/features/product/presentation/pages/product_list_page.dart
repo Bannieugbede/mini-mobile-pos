@@ -194,7 +194,11 @@ class _ProductListPageState extends State<ProductListPage> {
                                 ),
                                 const SizedBox(height: 4),
                                 Text(
+<<<<<<< HEAD
                                   '₦${product.price.toStringAsFixed(2)}',
+=======
+                                  '₹${product.price.toStringAsFixed(2)}',
+>>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                                   style: TextStyle(
                                       fontWeight: FontWeight.w500,
                                       color: Colors.grey[600]),

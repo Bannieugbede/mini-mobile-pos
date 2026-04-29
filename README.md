@@ -5,7 +5,11 @@ A feature-rich, high-performance offline-first billing and Point of Sale (POS) a
 ## Screenshot
 
 
+<<<<<<< HEAD
 https://github.com/user-attachments/assets/f2d16454-5408-43b3-b207-cd843bbc2c9e
+=======
+https://github.com/user-attachments/assets/f2d16454-5408-43b3-b207-cd843bbc2c9e--
+>>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
 
 
 

@@ -18,11 +18,19 @@ class ShopRepositoryImpl implements ShopRepository {
       } else {
         // Return default shop if not found
         return const Right(Shop(
+<<<<<<< HEAD
             name: 'Mirum Versal',
             addressLine1: 'Port Harcourt',
             addressLine2: 'Abuja',
             phoneNumber: '+2348133581012',
             upiId: 'admin@mirumversal.com',
+=======
+            name: 'Dinesh Shop',
+            addressLine1: 'Samrajpet, Mecheri',
+            addressLine2: 'Salem - 636453',
+            phoneNumber: '+917010674588',
+            upiId: 'dineshsowndar@oksbi',
+>>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
             footerText: 'Thank you, Visit again!!!'));
       }
     } catch (e) {

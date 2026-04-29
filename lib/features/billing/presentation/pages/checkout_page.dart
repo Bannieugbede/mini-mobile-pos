@@ -120,11 +120,19 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                             TextAlign.left,
                                           ),
                                           _buildDataCell(
+<<<<<<< HEAD
                                               '₦${item.product.price.toStringAsFixed(2)}',
                                               TextAlign.right,
                                               isSubtitle: true),
                                           _buildDataCell(
                                               '₦${item.total.toStringAsFixed(2)}',
+=======
+                                              '₹${item.product.price.toStringAsFixed(2)}',
+                                              TextAlign.right,
+                                              isSubtitle: true),
+                                          _buildDataCell(
+                                              '₹${item.total.toStringAsFixed(2)}',
+>>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                                               TextAlign.right,
                                               isBold: true),
                                         ],
@@ -209,7 +217,11 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                       ),
                                     ),
                                     Text(
+<<<<<<< HEAD
                                       '₦${billingState.totalAmount.toStringAsFixed(2)}',
+=======
+                                      '₹${billingState.totalAmount.toStringAsFixed(2)}',
+>>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                                       style: const TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
