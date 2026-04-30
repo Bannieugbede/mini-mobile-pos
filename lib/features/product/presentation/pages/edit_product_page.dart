@@ -120,11 +120,7 @@ class _EditProductPageState extends State<EditProductPage> {
                     keyboardType:
                         const TextInputType.numberWithOptions(decimal: true),
                     decoration: const InputDecoration(
-<<<<<<< HEAD
                       prefixText: '₦ ',
-=======
-                      prefixText: '₹ ',
->>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                       prefixStyle: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w500,

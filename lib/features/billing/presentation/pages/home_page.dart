@@ -360,11 +360,7 @@ class _HomePageState extends State<HomePage> {
                                 color: Colors.grey,
                                 letterSpacing: 1.2)),
                         Text(
-<<<<<<< HEAD
                           '₦${state.totalAmount.toStringAsFixed(2)}',
-=======
-                          '₹${state.totalAmount.toStringAsFixed(2)}',
->>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.w900,
@@ -472,11 +468,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 const SizedBox(height: 4),
                 Text(
-<<<<<<< HEAD
                   '₦${item.product.price.toStringAsFixed(2)}',
-=======
-                  '₹${item.product.price.toStringAsFixed(2)}',
->>>>>>> 25edc658b6943cfdf635aba92f6e589b4f78ee1a
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 14,
